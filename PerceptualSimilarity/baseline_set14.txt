@@ -1,0 +1,14 @@
+man.png: 0.260540 0.169537
+pepper.png: 0.186402 0.118577
+barbara.png: 0.270035 0.112851
+ppt3.png: 0.075753 0.041588
+monarch.png: 0.130549 0.103390
+face.png: 0.247808 0.155619
+flowers.png: 0.163214 0.124044
+foreman.png: 0.103347 0.090506
+comic.png: 0.163903 0.134384
+baboon.png: 0.382165 0.170202
+bridge.png: 0.386577 0.201945
+lenna.png: 0.231101 0.139949
+zebra.png: 0.222339 0.101585
+coastguard.png: 0.306550 0.157002

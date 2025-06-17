@@ -1,0 +1,20 @@
+aesop_opt:
+    type: AutoEncoderLoss
+    loss_weight: !!float 1.0
+    as_loss_map: false
+    reduction: mean
+    criterion: l1
+    autoencoder_arch:
+      type: AutoEncoder_RRDBNet
+      enc_opt:
+        placeholder: 0
+      dec_opt:
+        type: RRDBNet
+        num_in_ch: 3
+        num_out_ch: 3
+        num_feat: 64
+        num_block: 23
+        num_grow_ch: 32
+    autoencoder_load:
+      path: /home/thirvin9527/SR/AESOP-Auto-Encoded-Supervision-for-Perceptual-Image-Super-Resolution/RealAE_RRDBdecoder_100K.pth
+      key: params_ema

@@ -1,0 +1,2 @@
+python test.py --is_y --test_hr_folder val/Set14_x2/Set14_HR/ --test_lr_folder val/Set14_LR_x3/ --output_folder results/Set14x3/ --checkpoint experiment/checkpoint_ESRT_x3/epoch_990.pth --upscale_factor 3
+python test.py --is_y --test_hr_folder val/bsd100/BSD100_HR --test_lr_folder val/bsd100/BSD100_LR_x3/ --output_folder results/BSD100x3/ --checkpoint experiment/checkpoint_ESRT_x3/epoch_990.pth --upscale_factor 3
